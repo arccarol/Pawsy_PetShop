@@ -19,6 +19,6 @@ Seção de cards interativos com imagens e descrições.
 
 <img src="src/assets/Tela2.png" alt="Banner da Landing Page" width="100%" />
 
-<img src="src/assets/Tela3.png" alt="Banner da Landing Page" width="50%" height="60%" />
+<img src="src/assets/Tela3.png" alt="Banner da Landing Page" width="40%" height="50%" />
 
 
