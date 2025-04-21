@@ -11,5 +11,14 @@ PawsyPage é uma aplicação web desenvolvida com Angular voltada para um pet sh
 Layout responsivo para garantir uma boa experiência tanto em desktop quanto em dispositivos móveis.
 Seção de cards interativos com imagens e descrições.
 
-#Aplicação Final
+# Visual
+
+
+
+<img src="src/assets/Tela1.png" alt="Banner da Landing Page" width="100%" />
+
+<img src="src/assets/Tela2.png" alt="Banner da Landing Page" width="100%" />
+
+<img src="src/assets/Tela3.png" alt="Banner da Landing Page" width="100%" />
+
 
