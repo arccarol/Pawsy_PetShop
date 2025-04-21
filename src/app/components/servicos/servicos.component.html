@@ -1,0 +1,40 @@
+<div>
+<div class="carousel-container">
+    <!-- Botão de voltar: só aparece se não estamos no primeiro slide -->
+    <button
+  class="arrow-btn left"
+  (click)="prevSlide()"
+  [style.visibility]="currentIndex > 0 ? 'visible' : 'hidden'"
+>
+  &#8249;
+</button>
+  
+<div class="carousel-window" #carouselWindow>
+    <div
+      class="cards-wrapper"
+      [style.transform]="'translateX(-' + translateX + 'px)'"
+    >
+    
+    <div class="card" *ngFor="let card of cards" #cardItem>
+      <h3>{{ card.title }}</h3>
+      <p>{{ card.description }}</p> 
+      <a href="#contato"><p>Saiba Mais</p></a> 
+      <img class="cardfoto" src="./assets/card.png" alt="">
+      <img [src]="card.grafico" alt="{{ card.grafico }}" class="grafico-img" />
+      
+
+     
+    </div>
+    
+   </div>
+  </div>
+  
+    <button
+  class="arrow-btn right"
+  (click)="nextSlide()"
+  [style.visibility]="currentIndex < maxIndex ? 'visible' : 'hidden'"
+>
+  &#8250;
+</button>
+  </div>
+</div>

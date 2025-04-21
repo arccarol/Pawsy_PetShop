@@ -1,0 +1,51 @@
+<header class="header">
+    <!-- Botão só aparece no mobile -->
+    <button class="menu-toggle" *ngIf="isMobile" (click)="toggleMenu()">☰</button>
+  
+    <!-- Menu aparece se for mobile E estiver aberto -->
+    <ul *ngIf="isMobile && isMenuOpen" class="nav-menu">
+      <li class="nav-item">
+        <img src="./assets/navEscuro.png" alt="Imagem decorativa">
+        <a href="#home" class="nav-textt">Home</a>
+      </li>
+      <li class="nav-item">
+        <img src="./assets/navEscuro.png" alt="Imagem decorativa">
+        <a href="#servicos" class="nav-textt">Serviços</a>
+      </li>
+      <li class="logo">
+        <img src="./assets/logo.png" alt="Logo Pawsy">
+      </li>
+      <li class="nav-item">
+        <img src="./assets/navClaro.png" alt="Imagem decorativa">
+        <a href="#sobre" class="nav-textt2">Sobre Nós</a>
+      </li>
+      <li class="nav-item">
+        <img src="./assets/navClaro.png" alt="Imagem decorativa">
+        <a href="#contato" class="nav-textt2">Contato</a>
+      </li>
+    </ul>
+  </header>
+  
+  <header class="header">    
+    <ul>
+      <li class="nav-item">
+        <img src="./assets/navEscuro.png" alt="Imagem decorativa">
+        <a href="#home" class="nav-text">Home</a>
+      </li>
+      <li class="nav-item">
+        <img src="./assets/navEscuro.png" alt="Imagem decorativa">
+        <a href="#servicos" class="nav-text">Serviços</a>
+      </li>
+      <li class="logo">
+        <img src="./assets/logo.png" alt="Logo Pawsy">
+      </li>
+      <li class="nav-item">
+        <img src="./assets/navClaro.png" alt="Imagem decorativa">
+        <a href="#sobre" class="nav-text2">Sobre Nós</a>
+      </li>
+      <li class="nav-item">
+        <img src="./assets/navClaro.png" alt="Imagem decorativa">
+        <a href="#contato" class="nav-text2">Contato</a>
+      </li>
+    </ul>
+  </header>

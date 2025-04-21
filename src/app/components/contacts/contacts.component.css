@@ -1,0 +1,262 @@
+
+    .logo{
+        position: absolute;
+        height: 550px;
+        width: 550px;
+        margin-left: 60%;
+        margin-top: 2%;
+        z-index: 0;
+
+    }
+
+    .texts{
+        position: absolute;
+        padding-top: 9%;
+        z-index: 2;
+        margin-left: 3%;
+        
+
+        h2{
+            font-family: "Jaldi";
+            font-weight: 400;
+            font-size: 50px;
+        }
+
+        p{
+            font-family: "Josefin Sans";
+            font-size: 30px;
+            width: 800px;
+            line-height: 35px;
+            font-weight: bold;
+        
+        }
+        
+    }
+
+    .redes{
+        position: absolute;
+        z-index: 2;
+        padding-top: 23%;
+        margin-left: 3%;
+
+        .face{
+            height: 55px;
+            width: 26px;
+
+        }
+
+        img{
+            height: 55px;
+            width: 55px;
+            margin-right: 25px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover{
+            transform: scale(1.1);
+
+
+        }
+    }
+
+    @media (max-width: 1280px) {
+
+        
+    .logo{
+        position: absolute;
+        height: 450px;
+        width: 450px;
+        margin-left: 60%;
+        margin-top: 4%;
+        z-index: 0;
+
+    }
+
+    .texts{
+        position: absolute;
+        padding-top: 8%;
+        z-index: 2;
+        margin-left: 3%;
+        
+
+        h2{
+            font-family: "Jaldi";
+            font-weight: 400;
+            font-size: 38px;
+        }
+
+        p{
+            font-family: "Josefin Sans";
+            font-size: 30px;
+            width: 620px;
+            line-height: 35px;
+            font-weight: bold;
+        
+        }
+        
+    }
+
+    .redes{
+        position: absolute;
+        z-index: 2;
+        padding-top: 25%;
+        margin-left: 3%;
+
+        .face{
+            height: 55px;
+            width: 26px;
+
+        }
+
+        img{
+            height: 55px;
+            width: 55px;
+            margin-right: 25px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover{
+            transform: scale(1.1);
+
+
+        }
+    }
+    }
+
+      @media (max-width: 768px) {
+
+        
+             
+    .logo{
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        margin-left: 55%;
+        margin-top: 5%;
+        z-index: 0;
+
+    }
+
+    .texts{
+        position: absolute;
+        padding-top: 5%;
+        z-index: 2;
+        margin-left: 4%;
+        
+
+        h2{
+            font-family: "Jaldi";
+            font-weight: 400;
+            font-size: 30px;
+        }
+
+        p{
+            font-family: "Josefin Sans";
+            font-size: 20px;
+            width: 350px;
+            line-height: 35px;
+            font-weight: bold;
+        
+        }
+        
+    }
+
+    .redes{
+        position: absolute;
+        z-index: 2;
+        padding-top: 34%;
+        margin-left: 4%;
+
+        .face{
+            height: 45px;
+            width: 18px;
+
+        }
+
+        img{
+            height: 45px;
+            width: 45px;
+            margin-right: 25px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover{
+            transform: scale(1.1);
+
+
+        }
+    }
+    }
+      
+
+      @media (max-width: 600px) {
+
+                
+    .logo{
+        height: 120px;
+        width: 120px;
+        margin-left: 35%;
+        margin-top: 65%;
+        z-index: 0;
+
+    }
+
+    .texts{
+        position: absolute;
+        padding-top: 6%;
+        z-index: 2;
+        margin-left: 10%;
+        text-align: center;
+        
+        
+
+        h2{
+            font-family: "Jaldi";
+            font-weight: 400;
+            font-size: 28px;
+        }
+
+        p{
+            font-family: "Josefin Sans";
+            font-size: 15px;
+            width: 350px;
+            line-height: 35px;
+            font-weight: bold;
+            margin-left: -20px;
+        
+        }
+        
+    }
+
+    .redes{
+        position: absolute;
+        z-index: 2;
+        padding-top: 50%;
+        margin-left: 28%;
+
+        .face{
+            height: 30px;
+            width: 12px;
+
+        }
+
+        img{
+            height: 30px;
+            width: 30px;
+            margin-right: 25px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover{
+            transform: scale(1.1);
+
+
+        }
+    }
+    }
+      
+

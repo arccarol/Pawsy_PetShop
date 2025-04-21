@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+main{
+  background-color: #FEEDDB;
+  min-height: 100vh;
+  max-width: 100vW;
+  overflow-x: hidden;
+
+}
+
+  .corte {
+      position: absolute;
+      height: 100vh;
+      left: 73%;
+      top: 0;
+      transform: translateX(-50%);
+      z-index: 0;
+    }
+
+    .marrom{
+      position: absolute;
+      height: 100vh;
+      width: 25%;
+      right: 0;
+      top: 0;
+      z-index: 0;
+    }
+
+    .dogHome{
+      position: absolute;
+      width:380px;
+      height:550px;
+      right: 18%;
+      margin-top: 2%;
+    }
+
+    .text{
+      margin: 10% 5%;
+
+      h2{
+          font-size: 50px;
+          font-weight: 500;
+          font-family: "Jaldi" 
+      }
+      
+      p{
+          font-size: 35px;
+          font-weight: bold;
+          font-family: "Josefin Sans";
+          line-height: 40px;
+          width: 50%;
+      }
+    }
+
+    .servico{
+      background-color: #B48671;
+      min-height: 100vh;
+      min-width: 100vb;
+      margin-top: 15.5%;
+      z-index: 1;
+    }
+
+    .sobre{
+      min-height: 100vh;
+     background-color:#FEEDDB;
+     z-index: 2;
+    }
+
+    .contato{
+      min-height: 85vh;
+      background-color:#B48671;
+      z-index: 3;
+
+    }
+
+    .footer{
+      min-height: 15vh;
+      background-color: #FEEDDB;
+
+      div{
+        padding-top: 20px;
+      }
+      
+      
+      
+      p{
+        font-family: "Josefin Sans";
+        font-size: 15px;
+        width: 500px;
+        text-align: center;
+        margin-left: 35%;
+        padding: 5px;
+      }
+    }
+
+    .home{
+      z-index: 0;
+    }
+
+      @media (max-width: 1280px) {
+
+        .corte {
+          position: absolute;
+          height: 106%;
+          left: 73%;
+          top: 0;
+          transform: translateX(-50%);
+          z-index: 0;
+        }
+  
+        .marrom{
+          position: absolute;
+          height: 106%;
+          width: 25%;
+          right: 0;
+          top: 0;
+          z-index: 0;
+        }
+  
+        .dogHome{
+          position: absolute;
+          width:370px;
+          height:520px;
+          right: 14%;
+          margin-top: 1%;
+        }
+  
+        .text{
+          margin: 10% 5%;
+  
+          h2{
+              font-size: 50px;
+              font-weight: 500;
+              font-family: "Jaldi" 
+          }
+          
+          p{
+              font-size: 35px;
+              font-weight: bold;
+              font-family: "Josefin Sans";
+              line-height: 40px;
+              width: 50%;
+          }
+        }
+  
+        .servico{
+          background-color: #B48671;
+          min-height: 100vh;
+          margin-top: 15.5%;
+        }
+  
+        .sobre{
+          min-height: 100vh;
+         background-color:#FEEDDB
+        }
+  
+        .contato{
+          min-height: 85vh;
+          background-color:#B48671;
+  
+        }
+  
+        .footer{
+          min-height: 15vh;
+          background-color: #FEEDDB;
+  
+          div{
+            padding-top: 20px;
+          }
+          
+          p{
+            font-family: "Josefin Sans";
+            font-size: 15px;
+            width: 500px;
+            text-align: center;
+            margin-left: 35%;
+            padding: 5px;
+          }
+        }
+      }
+
+
+      @media (max-width: 768px) {
+
+        .corte {
+          position: absolute;
+          height: 608px;
+          left: 73%;
+          top: 0;
+          transform: translateX(-50%);
+          z-index: 0;
+        }
+  
+        .marrom{
+          position: absolute;
+          height: 608px;
+          width: 25%;
+          right: 0;
+          top: 0;
+          z-index: 0;
+        }
+  
+        .dogHome{
+          position: absolute;
+          width:300px;
+          height:450px;
+          right: 11%;
+          margin-top: 3%;
+        }
+  
+        .text{
+          margin: 10% 5%;
+  
+          h2{
+              font-size: 50px;
+              font-weight: 500;
+              font-family: "Jaldi" 
+          }
+          
+          p{
+              font-size: 32px;
+              font-weight: bold;
+              font-family: "Josefin Sans";
+              line-height: 40px;
+              width: 50%;
+          }
+        }
+
+        .servico{
+          min-height: 60vh;
+          min-width: 100vb;
+
+        }
+
+        .sobre{
+          min-height: 80vh;
+          min-width: 100vb;
+
+        }
+
+        .contato{
+          min-height: 70vh;
+          min-width: 100vb;
+
+        }
+
+        .footer{
+          p{
+            margin-left: 16%;
+            margin-bottom: 15px;
+          }
+        }
+
+
+      }
+
+      @media (max-width: 600px) {
+
+        main{
+          width: 100vh;
+          overflow-x: hidden;
+          touch-action: pan-y;
+        }
+
+        .home{
+          position: relative;
+          height: 100%;
+
+          .corte{
+            height: 121vw;
+          }
+
+          .marrom{
+            height: 121vw;
+            
+          }
+
+          .text{
+
+            margin-top: -10%;
+            
+            h2{
+              font-size: 30px;
+            }
+
+            p{
+              font-size: 22px;
+            }
+}
+            .dogHome{
+              width: 220px;
+              height: 350px ;
+              margin-right: -8%;
+              margin-top: -8%;
+            }
+          
+
+        }
+
+        .servico{
+          height: 1650px;
+        }
+
+        .sobre{
+          width: 100vh;
+          height: 880px;
+        }
+
+        .footer{
+          position: absolute;
+          
+
+          p{
+            font-size: 10px;
+            width: 300px;
+            margin-left: 50px;
+          }
+        }
+
+        .contato{
+          width: 100vh;
+          height: 400px;
+
+        }
+
+}
+
+      
+
+
+
