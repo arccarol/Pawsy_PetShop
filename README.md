@@ -14,11 +14,16 @@ Seção de cards interativos com imagens e descrições.
 # Visual
 
 
+<img src="desktop1.png" alt="Banner da Landing Page" width="100%" />
 
-<img src="src/assets/Tela1.png" alt="Banner da Landing Page" width="100%" />
+<img src="desktop2.png" alt="Banner da Landing Page" width="100%" />
 
-<img src="src/assets/Tela2.png" alt="Banner da Landing Page" width="100%" />
+<img src="desktop3.png" alt="Banner da Landing Page" width="100%" />
 
-<img src="src/assets/Tela3.png" alt="Banner da Landing Page" width="40%" height="50%" />
+<img src="mobile1.png" alt="Banner da Landing Page" width="40%" height="50%" />
+
+<img src="mobile2.png" alt="Banner da Landing Page" width="40%" height="50%" />
+
+<img src="mobile3.png" alt="Banner da Landing Page" width="40%" height="50%" />
 
 
